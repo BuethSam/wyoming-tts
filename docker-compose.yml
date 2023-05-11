@@ -1,0 +1,13 @@
+version: '3.0'
+
+services:
+  tts:
+    image: samboo/wyoming-tts
+    restart: always
+    command: --uri tcp://0.0.0.0:10201 --voice tts_models/de/thorsten/vits
+    environment:
+      - COQUI_STUDIO_TOKEN= #optional
+    volumes:
+      - ./tts:/data
+    ports:
+      - 10201:10201
