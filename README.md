@@ -1,6 +1,10 @@
 # wyoming TTS
 
-coqui-ai TTS Wyoming protocol implementation. 
+coqui-ai TTS Wyoming protocol implementation.
+
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/BuethSam/wyoming-tts/publish.yml)
+![Docker Pulls](https://img.shields.io/docker/pulls/samboo/wyoming-tts)
+![GitHub](https://img.shields.io/github/license/BuethSam/wyoming-tts)
 
 ## TODO
 
@@ -10,4 +14,4 @@ coqui-ai TTS Wyoming protocol implementation.
 
 ## Contributions
 
-Pull request a very welcome. 
+Pull request a very welcome.
